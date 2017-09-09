@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.oso.estilo.MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:text="LA EDAD DE MI MASCOTA"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_gravity="center"
+
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/ivImagen"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/textViewUno"
+        android:text="Ingresa la edad de tu perro, para saber cuantos años tiene en la vida humana"
+        android:textSize="30sp"
+        android:textColor="#8c2323"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    !-- hola mundo --
+
+    <EditText
+        android:id="@+id/datosMascota"
+        android:hint="inserte el dato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:id="@+id/btnUno"
+        android:text="calculame"
+        android:onClick="calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:text="aqui resultado"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    //framelyout
+    //gridlayout
+    //relativelayout
+    //tablelatout
+    //linearlayout
+
+</LinearLayout>
