@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/textView"
         android:text="LA EDAD DE MI MASCOTA"
-        android:textSize="25sp"
+        android:textSize="40sp"
         android:gravity="center"
         android:textColor="@color/colorText"
         android:layout_width="match_parent"
